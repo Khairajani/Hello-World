@@ -1,3 +1,5 @@
 a=list(map(int,input().split()))
-mini=min(a)
-print(mini)
+b=sum(a)//len(a)
+for i in range(0,len(a)):
+    sum=sum+(a[i]-b)**2
+print(sum)    
